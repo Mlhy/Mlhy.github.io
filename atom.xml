@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>小可爱</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://lhy.io/"/>
+  <updated>2016-12-13T13:08:09.000Z</updated>
+  <id>https://lhy.io/</id>
+  
+  <author>
+    <name>meow</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ResNet-50 for Cats vs. Dogs</title>
+    <link href="https://lhy.io/2016/12/13/ResNet-50-for-Cats-vs-Dogs/"/>
+    <id>https://lhy.io/2016/12/13/ResNet-50-for-Cats-vs-Dogs/</id>
+    <published>2016-12-13T13:03:46.000Z</published>
+    <updated>2016-12-13T13:08:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Machine-Learning-Capstone-Project"><a href="#Machine-Learning-Capstone-Project" class="headerlink" title="Machine Learning Capstone Project"></a>Machine Learning Capstone Project</h1><h3 id="I-Definition"><a href="#I-Definition" class="headerlink" title="I. Definition"></a>I. Definition</h3><h3>Project Overview</h3>
+
+<p>Cats and dogs are the most favorite pets in a human’s life, therefore, we always have photos containing cats or dogs in our albums. Sometimes we try to classify these photos into categories. What if we do these things automatically rather than by our own hands or eyes? With the technology of computer vision, the knowledge of machine learning or more precisely deep learning, these problems can be solved.</p>
+<p>Many people have tried different ways to solve this problem and submitted their results on kaggle. Most of them really did very good jobs while some are not so satisfied.</p>
+<p>In this project, I built a classifier trained by the dataset downloaded from kaggle. The dataset contains a large amount of ordinary daily images including cats or dogs. The classifier runs on the Jupyter Notebook.</p>
+<p>$accuracy = \frac{n}{N}*100\%$</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Machine-Learning-Capstone-Project&quot;&gt;&lt;a href=&quot;#Machine-Learning-Capstone-Project&quot; class=&quot;headerlink&quot; title=&quot;Machine Learning Capstone 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>顺丰家的狗🐶</title>
+    <link href="https://lhy.io/2016/06/11/%E9%A1%BA%E4%B8%B0%E5%AE%B6%E7%9A%84%E7%8B%97%F0%9F%90%B6/"/>
+    <id>https://lhy.io/2016/06/11/顺丰家的狗🐶/</id>
+    <published>2016-06-11T09:42:41.000Z</published>
+    <updated>2016-12-11T09:44:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>学校有个顺丰快递点，住着一个老太太，养了两只狗狗。</p>
+<a id="more"></a>
+<p>一只老狗，长得丑，矮胖，从前是流浪的，和学校其他的流浪狗一样。老太太从前喂了学校里好多流浪狗，但是这些流浪狗喂着喂着，换了一批又一批，有的在外面出车祸死了，有的被保安赶走或者打死了，有的狗不甘平凡，去远方流浪了。可是这只狗，一直都跟着老太太，从我来到这里开始，直到我离开的时候也是。大概是从小就流浪的原因，在外面吃了不苦头。老狗很怕人，即使是给她肉吃的人。从前，我去取快递的时候，看她一眼，她都会嘴里呜噜着，但不敢叫出来，躲得老远。</p>
+<p>半年以前，顺丰家又来了一只小小狗，不知是哪家生了抱来的。特别小，小得好像一个手掌就能包起来，简直就是一个毛茸茸的肉球球。它看起来像是泰迪和一只黑土狗的串串，事实也是这样的。但是它也丑，因为它全身乌黑乌黑的，它不只是一个毛茸茸的肉球球，更是一个黑煤球！不过这一点关系也没有，因为它小，长得丑也是惹人爱的的，况且学校里没有更小的狗或者说没有别的狗了，所以更没有能和他争宠的了。自打它来到这里开始，就集万千宠爱于一身，它见到任何人都会屁颠屁颠的跑过去，拼尽全力摇尾巴。大家来取快递的时候都会被它逗笑，然后给它买肉肠吃，大家都知道它最喜欢的是王中王。</p>
+<p><img src="/images/xiaohei.jpg" width="360px"></p>
+<p style="text-align: center">(诺～就是这只小黑～)</p>
+
+<p>后来小小狗长大了，长成了一只健壮的狗，已经开始满校园撒欢，走在路上能赚到好多王中王。它还是最受欢迎的，在路上看到人就会开心的奔过去，闻一闻，站起来或者坐下，亲热一番，再换一个路人，看看有没有给它肉肠的，它有时吃到撑吐，真的是毫不夸张。而老狗还是在顺丰家的屋子里，或者门口，从不走远。还是不敢接近任何人，除了老太太。但是它常常能沾小小狗的光，吃到肉肠。</p>
+<p>一只狗，因为从小就生活在健康的环境里，受尽宠爱，赞美，夸奖，从不必担心明天，不必担心缺吃少穿，长大后也是乐观，开朗，善良，慷慨的；一只狗，从小在外流浪，历经风雨，曾被欺负和嫌弃，即使找到了依靠，内心还是胆怯，羞涩，难以建立信任，害怕被伤害。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学校有个顺丰快递点，住着一个老太太，养了两只狗狗。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>感冒心得</title>
+    <link href="https://lhy.io/2015/11/11/%E6%84%9F%E5%86%92%E5%BF%83%E5%BE%97/"/>
+    <id>https://lhy.io/2015/11/11/感冒心得/</id>
+    <published>2015-11-11T09:45:41.000Z</published>
+    <updated>2016-12-11T12:02:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>我只是一枚大学生，不是医学专业，医学知识仅限于个人常识，网络信息和多次生病观察及问医的经验，此文仅供参考不能作为用药标准，生病一定要第一时间去正规医院，尤其是老人儿童孕妇等。</strong><br><a id="more"></a><br>感冒在中医分为风热感冒和风寒感冒。</p>
+<p><strong>风热感冒</strong>的表现为：<br>发热重、微恶风、头胀痛、<strong>有汗</strong>、咽喉红肿疼痛、咳嗽、痰黏或黄、鼻塞黄涕、咽红干痛。</p>
+<p><strong>风寒感冒</strong>的表现为：<br>恶寒重，发热轻，无汗，<strong>头痛</strong>，鼻塞，流清涕，喉痒咳嗽。</p>
+<p><strong>主要区判断方法：鼻涕是清鼻涕还是黄鼻涕，是否多汗。</strong></p>
+<p>风寒感冒和风热感冒都可以吃常规的中成药，也就是感冒冲剂，伴有炎症的话再使用抗生素。但要判断自己是风寒感冒或风热感冒，对症用药才能有效果。</p>
+<p>我风热发烧时喝几次清开灵基本就好了，从来没有经历过风寒感冒。</p>
+<p><strong>在西医中感冒常分为病毒性和细菌性的</strong>，但是又有说法是没有所谓细菌性的感冒，所有感冒都是病毒引起的，感冒后由于抵抗力下降可能会导致细菌感染。</p>
+<p>正确的判断方法只能通过查血常规，而且正规医院的血常规十多分钟就可以出结果，我去过的最贵的收费50RMB，一般情况下十几二十块就差不多了，所以，也不要觉得小病医生要查血拍片就是医院坑钱了，这是低成本又靠谱的方法，有医保就更好啦～</p>
+<p><strong>纯病毒性的感冒</strong>不需要特别的治疗，主要是多喝热水，好好休息，补充维生素和无机盐，高烧有时会到四十一二度，傍晚起烧，一般连续一周左右，但是每天的最高体温都会降低，体温高于38度时可以用退烧药控制。</p>
+<p><strong>带有细菌的感冒</strong>就必须对症服用抗生素，遵医嘱。</p>
+<p>还有的只有打喷嚏流鼻涕的症状，很像感冒，但实际是<strong>过敏</strong>。医生给开过新康泰克。新康泰克是西药，含有伪麻黄碱，一般都会限购，对于打喷嚏流鼻涕（过敏或者感冒引起的）作用显著－大概半小时内就好，药效6个小时左右，治标不治本的。所以还服用过抗过敏药。</p>
+<p>超过三天没有好转的病情就一定要去正规的医院！<br>亲身经历证明，即使是感冒发烧这种最普通的每个人都会有的病，有的医院也是真的很不靠谱，所以尽可能去三甲医院，并且信任自己的医生，谨遵医嘱！</p>
+<p>去医院挂号的时候，如果发热就挂发热门诊有的也可以挂急诊，如果不发热可以尝试挂呼吸门诊，也可以去大厅的服务台或者分诊台问询。有条件去医院的话一定要去医院，尤其是有医保的人们去医院花费很少还能得到医生正确的治疗。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;我只是一枚大学生，不是医学专业，医学知识仅限于个人常识，网络信息和多次生病观察及问医的经验，此文仅供参考不能作为用药标准，生病一定要第一时间去正规医院，尤其是老人儿童孕妇等。&lt;/strong&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>instaBTBU宣传图</title>
+    <link href="https://lhy.io/2015/08/11/instaBTBU/"/>
+    <id>https://lhy.io/2015/08/11/instaBTBU/</id>
+    <published>2015-08-11T07:37:28.000Z</published>
+    <updated>2016-12-11T09:11:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>instaBTBU Promotional cards<br><a id="more"></a></p>
+<p><img src="/images/instabtbu.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;instaBTBU Promotional cards&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="instaBTBU" scheme="https://lhy.io/tags/instaBTBU/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://lhy.io/2015/06/01/hello-world/"/>
+    <id>https://lhy.io/2015/06/01/hello-world/</id>
+    <published>2015-06-01T07:37:28.000Z</published>
+    <updated>2016-12-11T09:11:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
+<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
