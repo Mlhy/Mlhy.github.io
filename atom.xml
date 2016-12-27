@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lhy.io/"/>
-  <updated>2016-12-13T13:08:09.000Z</updated>
+  <updated>2016-12-27T16:15:47.000Z</updated>
   <id>https://lhy.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://lhy.io/2016/12/13/ResNet-50-for-Cats-vs-Dogs/"/>
     <id>https://lhy.io/2016/12/13/ResNet-50-for-Cats-vs-Dogs/</id>
     <published>2016-12-13T13:03:46.000Z</published>
-    <updated>2016-12-13T13:08:09.000Z</updated>
+    <updated>2016-12-27T16:15:47.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Machine-Learning-Capstone-Project"><a href="#Machine-Learning-Capstone-Project" class="headerlink" title="Machine Learning Capstone Project"></a>Machine Learning Capstone Project</h1><h3 id="I-Definition"><a href="#I-Definition" class="headerlink" title="I. Definition"></a>I. Definition</h3><h3>Project Overview</h3>
 
@@ -37,6 +37,8 @@
     </summary>
     
     
+      <category term="Machine Learning" scheme="https://lhy.io/tags/Machine-Learning/"/>
+    
   </entry>
   
   <entry>
@@ -44,7 +46,7 @@
     <link href="https://lhy.io/2016/06/11/%E9%A1%BA%E4%B8%B0%E5%AE%B6%E7%9A%84%E7%8B%97%F0%9F%90%B6/"/>
     <id>https://lhy.io/2016/06/11/顺丰家的狗🐶/</id>
     <published>2016-06-11T09:42:41.000Z</published>
-    <updated>2016-12-11T09:44:43.000Z</updated>
+    <updated>2016-12-27T16:18:01.000Z</updated>
     
     <content type="html"><![CDATA[<p>学校有个顺丰快递点，住着一个老太太，养了两只狗狗。</p>
 <a id="more"></a>
@@ -64,6 +66,8 @@
     </summary>
     
     
+      <category term="🐶" scheme="https://lhy.io/tags/%F0%9F%90%B6/"/>
+    
   </entry>
   
   <entry>
@@ -71,7 +75,7 @@
     <link href="https://lhy.io/2015/11/11/%E6%84%9F%E5%86%92%E5%BF%83%E5%BE%97/"/>
     <id>https://lhy.io/2015/11/11/感冒心得/</id>
     <published>2015-11-11T09:45:41.000Z</published>
-    <updated>2016-12-11T12:02:50.000Z</updated>
+    <updated>2016-12-27T16:16:58.000Z</updated>
     
     <content type="html"><![CDATA[<p><strong>我只是一枚大学生，不是医学专业，医学知识仅限于个人常识，网络信息和多次生病观察及问医的经验，此文仅供参考不能作为用药标准，生病一定要第一时间去正规医院，尤其是老人儿童孕妇等。</strong><br><a id="more"></a><br>感冒在中医分为风热感冒和风寒感冒。</p>
 <p><strong>风热感冒</strong>的表现为：<br>发热重、微恶风、头胀痛、<strong>有汗</strong>、咽喉红肿疼痛、咳嗽、痰黏或黄、鼻塞黄涕、咽红干痛。</p>
@@ -94,6 +98,8 @@
     
     </summary>
     
+    
+      <category term="🐶" scheme="https://lhy.io/tags/%F0%9F%90%B6/"/>
     
   </entry>
   
@@ -124,7 +130,7 @@
     <link href="https://lhy.io/2015/06/01/hello-world/"/>
     <id>https://lhy.io/2015/06/01/hello-world/</id>
     <published>2015-06-01T07:37:28.000Z</published>
-    <updated>2016-12-11T09:11:45.000Z</updated>
+    <updated>2016-12-27T16:16:01.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
