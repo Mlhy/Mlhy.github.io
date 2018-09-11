@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lhy.io/"/>
-  <updated>2017-08-13T15:44:25.000Z</updated>
+  <updated>2018-09-10T11:56:13.196Z</updated>
   <id>https://lhy.io/</id>
   
   <author>
@@ -14,6 +14,80 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的学车经历（上海）</title>
+    <link href="https://lhy.io/learn_to_drive_a_car/"/>
+    <id>https://lhy.io/learn_to_drive_a_car/</id>
+    <published>2018-09-10T12:06:59.000Z</published>
+    <updated>2018-09-10T11:56:13.196Z</updated>
+    
+    <content type="html"><![CDATA[<p>在我的学车过程中遇到了很多问题都很困惑，也没有找到很好的答案，所以我准备总结一下我的学习过程供大家参考。我学习的是C2-小型自动挡汽车，地点是上海，这篇博客完成于2018年9月，随着时间、地点改变可参考的价值也会改变。</p>
+<a id="more"></a>
+<h2 id="C1手动挡还是C2自动挡"><a href="#C1手动挡还是C2自动挡" class="headerlink" title="C1手动挡还是C2自动挡"></a>C1手动挡还是C2自动挡</h2><p>我选择的是C2自动挡，自动挡比手动挡的考试更容易通过（这一点其实很重要），学费略贵一点。C1手动挡驾照能够开C2自动挡的车，但是C2自动挡驾照不能开手动挡的车。不过，并不需要担心，正常大家之后都会买自动挡的车。</p>
+<p>有一次在路上和专车师傅聊起来学车，师傅说学自动挡就可以，是很正确的选择。他说他给他老婆报名的时候选的手动挡，科目二考了好多次没有通过，怪他为什么要报手动挡。实际上后来他们也没有开过手动挡的车。</p>
+<h2 id="关于驾校"><a href="#关于驾校" class="headerlink" title="关于驾校"></a>关于驾校</h2><p>我身边没有最近从上海学车的朋友，所以关于驾校的调查都是直接从网络获取的，没有熟人推荐教练之类的。不知道大家是否了解 V2EX 呢？我从上面看到上海地区大家非常推荐荣安驾校，所以就选择了这个。如果你问我的话，我也会给你们推荐这个驾校。虽然学车的过程中有不愉快或者不合规的地方，但是很难说去其它的驾校能够得到更好的服务。</p>
+<p>荣安驾校的地址在上海宝山，潘广路地铁站附近，但是可能不久之后会因为拆迁搬走，旁边是刘行驾校。荣安是科目二的考试场地，刘行是科目三的考试场地。</p>
+<p>很多同学报名的时候都很关心从报名到拿到驾照最快是多长时间，驾校和教练给出的回答往往是35天。但是这个时间在上海实际是不可能的。首先会有报名，开班，体检的时间，接下来每个科目之间会要求至少10天的间隔，但是并不是10天之后就能考下一个科目，因为报名的人数非常多需要排队，以我的考点来看，科目二通过后要40天才能够预约到科目三考试。这个预约没有任何提前的办法，不能刷或者后门，它与你的报名时间和第几次考试有关。</p>
+<p>通常驾校还会有接送这一说，但是只是从就近的地铁站接到驾校。</p>
+<h2 id="关于报名"><a href="#关于报名" class="headerlink" title="关于报名"></a>关于报名</h2><p>上海市的户口或居住证可以直接报名；如果是曾经在上海有户口但是迁出了，身份证没有更换，依旧是上海的也能报名，但是学车期间就不能更换身份证了；如果是没有居住证的外地户口就需要下面的手续了：</p>
+<ul>
+<li>首先需要在街道办先办理《上海市居住房屋租赁合同登记备案通知书》，这个需要很多手续，比如租赁合同，房产证复印件等，我是由中介准备材料办理的，本人需要带身份证到场填写信息签字等。</li>
+<li>接下来在同样的地方，通过《上海市居住房屋租赁合同登记备案通知书》可以办理《居住登记凭证》。需要穿深色的衣服拍照，以及复印身份证等材料。</li>
+<li>报名的时候带上身份证、《居住登记凭证》就可以了。</li>
+<li>此外，如果没有归属地为上海的手机卡也需要办理一个上海手机卡，否则的话可能会收不到车管所网站发送的验证码。</li>
+</ul>
+<h2 id="报名之后"><a href="#报名之后" class="headerlink" title="报名之后"></a>报名之后</h2><p>报名之后接下来的内容驾校会告诉你该如何做，比如等驾校办理开班，去体检（体检非常简单，正常人都能通过），去 sh.122.gov.cn 注册，考试都是在这个网站自己预约。考试费用通常不包含在学费中，我是从驾校 APP 中单独交的，总共 790 元人民币。</p>
+<h2 id="科目一"><a href="#科目一" class="headerlink" title="科目一"></a>科目一</h2><p>报名缴费和体检通过之后就可以预约科目一了，科目一是很容易预约的。考试内容是100道题，包含单选题和判断题，每题1分，90分通过。考试当天有两次机会，是上机考试，当答错11道题时就不能再答题，联系工作人员开始下一次考试。如果两次都没有通过，需要重新缴纳科目一的考试费用，再次预约考试。</p>
+<p>备考科目一主要有两个方面：一是看《安全驾驶-从这里开始》这本书，科目一考试范围是1-3章，书中标有「警示」字样的地方在我的考试中多次出现；二是做题和模拟练习，我使用的是「驾考宝典」APP，模拟考试都能在95分以上就差不多。</p>
+<p>我是在荣安驾校完成的科目一考试，但是2018.10.1之后科目一以及科目三的理论就不能在驾校考了，需要去车管所指定的地方考试。</p>
+<p>即使在驾校考试，也会验证身份证，全程监控，没有作弊的空间。</p>
+<h2 id="科目二"><a href="#科目二" class="headerlink" title="科目二"></a>科目二</h2><p>科目一完成后，驾校给我分配了教练学习科目二。如果你有熟悉的教练也可以和驾校协商。约车的时间是由教练决定的，教练会告诉你哪几天可以排课，然后你选择时间，如果和其他学员冲突了需要再沟通。我学习科目二的时候教练每周只有2-3天可以排课。通常是每周学习1-2次，每次3-4小时。</p>
+<p>科目二的考试内容有五项：侧方停车、倒车入库、坡道定点停车和起步、曲线行驶、直角转弯。在<a href="https://baike.baidu.com/item/%E7%A7%91%E7%9B%AE%E4%BA%8C%E8%80%83%E8%AF%95/7965460?fromtitle=%E7%A7%91%E7%9B%AE%E4%BA%8C&amp;fromid=8462899#6" target="_blank" rel="noopener">百度百科</a>可以看到扣分代码，比如倒车入库时中途停车扣100分等。考试满分是100分，80分可以通过，两次机会。</p>
+<p>科目一考试通过10天之后可以预约科目二考试，科目二也是比较容易约到的，但难度上是最难的。考试的时候车上只有你一个人，由电脑自动判分。荣安本身就是科目二的考试场地之一，平时练习都是使用能够判分的车子直接在考试场地练习的，所以很顺利一次就通过考试了。</p>
+<h2 id="科目三"><a href="#科目三" class="headerlink" title="科目三"></a>科目三</h2><p>科目三，包括道路驾驶技能考试和安全文明驾驶常识考试（俗称科目四）。目前我完成了道路驾驶技能考试，因为不在上海还没有参加安全文明驾驶常识考试。</p>
+<p>科目二通过10天之后就可以预约科目三的考试，但是因为要排队所以通常在40天之后才能参加考试。</p>
+<p>科目三的考试内容就多很多了。满分100分，90分可以通过，两次机会。在<a href="https://baike.baidu.com/item/%E7%A7%91%E7%9B%AE%E4%B8%89#4_1" target="_blank" rel="noopener">百度百科</a>中可以看到扣分代码，在考试中除了「停车后，车身距离道路右侧边缘线或者人行道边缘大于30cm」扣10分外，都是直接扣100分的。</p>
+<p>考试项目如下：</p>
+<ol>
+<li><strong>上车准备。</strong>下车逆时针绕车一周，车身前后两个按钮各按一下以表示完成绕车动作。上车，调整座椅，调整后视镜，系好安全带。</li>
+<li><strong>模拟灯光。</strong>安全带扣上的同时语音开始播报模拟灯光。模拟灯光包含这几项：检查灯光、开启灯光、照明不良道路行驶、通过桥梁，急弯，坡道行驶、路边临时停车、超车、夜间通过有信号灯控制的路口、通过人行横道线、关闭灯光。</li>
+<li><strong>起步。</strong>打左转灯，挂D档，松手刹，看后视镜。起步以后3秒钟可以灭灯。</li>
+<li><strong>加减挡操作。</strong>加速到45公里每小时保持3秒。</li>
+<li><strong>通过学校区域。</strong>遇到「学生通道，车辆让行」标志，踩刹车，速度低于30公里小时。</li>
+<li><strong>直线行驶。</strong>30公里每小时速度保持车辆直线行驶。</li>
+<li><strong>超车。</strong>打左转灯，变更车道。</li>
+<li><strong>通过公共汽车站</strong>。踩刹车，速度低于30公里小时。</li>
+<li><strong>靠边停车。</strong>打右转灯，看后视镜，挂P档，松手刹，再次起步。</li>
+<li><strong>会车。</strong>刹车。会车结束以后考试也就结束了。</li>
+<li>考试过程中还会有：直行通过路口、路口左转弯、路口右转弯、变更车道、掉头操作。</li>
+</ol>
+<p>科目三考试时会上路，所以旁边会有安全员，但是评分是由电脑完成的，如果出现危险驾驶行为，安全员踩了刹车本次考试就结束了。</p>
+<p>科目三的考试是在刘行驾校，荣安的学员只有两次进入刘行驾校练习的机会，再进入就要200元一次的场地费。教练说他可以联系刘行的教练带我几圈，按200元一小时收费。想到万一没有通过会浪费更多的时间和金钱，所以我就额外付钱在刘行驾校练习了3个小时。</p>
+<p>每次考完试都会当场知道自己是否通过了考试，之后在网站查看自己的成绩。当科目三道路驾驶技能考试的成绩在网站上更新之后（一般是当天）就可以预约安全文明驾驶常识考试了。通常一周之内就可以完成安全文明驾驶常识考试拿到驾照。</p>
+<h2 id="小插曲"><a href="#小插曲" class="headerlink" title="小插曲"></a>小插曲</h2><ul>
+<li>因为我平时生活的环境，周围老师同学朋友都很友好和客气，所以我觉得教练真的很凶，但是没有出现讲脏话或更严重的行为。</li>
+<li>科目二通过之后我没有告知教练被狠狠的教育了一番。由于每次通过考试荣安驾校的 APP 上都会显示通过，教练约车信息也会显示在 APP 中，我理所当然的认为教练是能够知道我是否通过的。后来教练在微信上问我是否通过的时候我也很快回复。但是在下次见面时被严厉的批评，大概就是别的学员都会感谢教练，通过了大家一起高兴一下，你怎么这么不会办事不懂礼貌之类的。</li>
+<li>科目三的时候我通过考试就马上告诉教练了，结果教练说「恭喜恭喜，给师傅来点福利犒劳犒劳」，所以我明白了自己科目二的时候为什么会被骂。还是脸皮薄不会拒绝，给教练发了红包。但是我觉得自己做的不对，如果我勇敢拒绝了也许教练下一次就不会轻易跟学员要红包了。</li>
+</ul>
+<h2 id="全部花费"><a href="#全部花费" class="headerlink" title="全部花费"></a>全部花费</h2><ul>
+<li>驾校学费：¥6990</li>
+<li>考试费：¥790</li>
+<li>科目三场地费：¥600（¥200/小时）</li>
+<li>教练红包：¥88<br>总计：¥8468</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在我的学车过程中遇到了很多问题都很困惑，也没有找到很好的答案，所以我准备总结一下我的学习过程供大家参考。我学习的是C2-小型自动挡汽车，地点是上海，这篇博客完成于2018年9月，随着时间、地点改变可参考的价值也会改变。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Life" scheme="https://lhy.io/tags/Life/"/>
+    
+  </entry>
   
   <entry>
     <title>🐈养一只小猫可能遇到的问题</title>
@@ -37,7 +111,7 @@
 <li><strong>出门被限制。</strong>因为考虑到家里会有一只小猫需要每天喂水铲屎，所以就不能来一场说走就走的旅行啦。如果只离开一两天，准备好水和猫粮把小猫独自放在家里还是可行的，超过3天小猫就伤心死啦😭。你需要找父母或朋友来照顾它，或者靠谱的寄养的地方。</li>
 <li><strong>寄生虫。</strong>正常小猫的寿命有10-20年。如果在此期间准备生宝宝、养宝宝你可能会有一些对宠物身上寄生虫之类的问题的担心和困扰。如果决定一直养猫猫到时就要咨询医生和检查。</li>
 </ol>
-<img src="/cat_problem/cat_problem.JPG" alt="cat_problem.JPG" title="">
+<img src="/cat_problem/cat_problem.JPG">
 ]]></content>
     
     <summary type="html">
@@ -60,31 +134,31 @@
     <updated>2017-01-16T15:57:00.000Z</updated>
     
     <content type="html"><![CDATA[<p>谷歌的无人驾驶汽车项目已经从谷歌分离出来成为 Alphabet 的子公司 Waymo 了，不过成果基本上还是作为谷歌无人车的时候实现的。我们可以先看一下无人车的这两种车型。</p>
-<img src="/GoogleSDC/001.jpeg" alt="001.jpeg" title="">
+<img src="/GoogleSDC/001.jpeg">
 <p>这是原型车（prototype vehicle）。</p>
-<img src="/GoogleSDC/002.jpeg" alt="002.jpeg" title="">
+<img src="/GoogleSDC/002.jpeg">
 <p>这是 Chrysler Pacifica Hybrid，谷歌之前用的是 Lexus RX450h SUV。</p>
 <a id="more"></a>
 <p>无人驾驶汽车是一个复杂的软硬件系统，它涉及到的技术和方法不是能简单概括的，很多内容不作为内部的技术人员很难准确的知道和理解的。不过，谷歌和 Waymo 开放了许多资料和视频，我们还是能从中得知他们团队对无人车的思考以及使用或可能使用的技术。</p>
 <p>谷歌的无人车使用了三种主要的传感器 ：摄像头（cameras），激光雷达（lidars）和 测距雷达（radars） 。激光雷达（lidars）就是那种很贵的，价格可高达几十万，能够用来形成周围物体的三维特征。雷达（radars）与普通汽车上的倒车雷达类似，用来探测前面的车的距离和车速。</p>
-<img src="/GoogleSDC/003.png" alt="003.png" title="">
+<img src="/GoogleSDC/003.png">
 <p>那么我就从我查到的资料来简单的举一些典型或者有意思的例子来说明谷歌设计无人车时的思路和方法：</p>
 <h3 id="1-为无人车建立专属地图（BUILDING-MAPS-FOR-A-SELF-DRIVING-CAR-report0316）"><a href="#1-为无人车建立专属地图（BUILDING-MAPS-FOR-A-SELF-DRIVING-CAR-report0316）" class="headerlink" title="1. 为无人车建立专属地图（BUILDING MAPS FOR A SELF-DRIVING CAR - report0316）"></a>1. 为无人车建立专属地图（BUILDING MAPS FOR A SELF-DRIVING CAR - report0316）</h3><p>谷歌会为他的无人车建造地图，和我们使用的谷歌地图或者高德地图的 app 不同，无人车使用的地图会包含更多的信息，如路缘的高度，十字路口的宽度，交通标志、红绿灯的高度和准确位置等信息。</p>
 <p>这些地图信息不是无人车在行驶的过程中自己生成的，当谷歌的无人车将要进入一个新的环境测试的时候，他们会开着自己的无人车用车上的激光雷达收集周围环境的三维数据，之后会对这些数据进行标定和分类，比如道路线的状态，路灯高度，路边的消防栓等。</p>
 <p>这么做的好处是无人车在真正上路的时候能够知道自己在什么样的位置时会遇到什么东西，也能更专注于处理移动的目标，比如行驶的车辆和行人等，还有本不该出现的障碍物等，还可以减少路面永久性（这里的永久指长时间不会改变）的物体对无人车真正上路进行识别定位其它车辆、行人、障碍物时的干扰。</p>
-<img src="/GoogleSDC/004.png" alt="004.png" title="">
+<img src="/GoogleSDC/004.png">
 <h3 id="2-鸣笛算法（Honking-Algorithms-report-0516）"><a href="#2-鸣笛算法（Honking-Algorithms-report-0516）" class="headerlink" title="2. 鸣笛算法（Honking Algorithms - report 0516）"></a>2. 鸣笛算法（Honking Algorithms - report 0516）</h3><p>如果一辆车突然转进自己的车道，我们是不是应该提醒它一下“喂！你后面还有车呢！”？谷歌就为自己的无人车设计了鸣笛算法用来提醒其他司机注意自己的存在。虽然被鸣笛提醒往往是一种不好的体验，不过谷歌希望它的无人车的鸣笛算法是礼貌且细心周到的，并且只在鸣笛能够让大家更安全的情况下进行。</p>
 <p>谷歌希望教会无人车区分真正需要鸣笛的情景和看起来需要但是并不需要的情景，比如车在掉头的时候你需要等待而不是鸣笛，但是车跑在了错误的车道时候你可能就需要鸣笛提醒。在进行鸣笛算法测试的时候，谷歌会让测试驾驶员记录无人车每一次鸣笛的情况以帮助工程师优化算法。</p>
-<img src="/GoogleSDC/005.png" alt="005.png" title="">
+<img src="/GoogleSDC/005.png">
 <h3 id="3-谷歌无人车的三点掉头（THE-THREE-POINT-TURN）"><a href="#3-谷歌无人车的三点掉头（THE-THREE-POINT-TURN）" class="headerlink" title="3.  谷歌无人车的三点掉头（THE THREE-POINT TURN）"></a>3.  谷歌无人车的三点掉头（THE THREE-POINT TURN）</h3><p>谷歌希望无人车能够给人提供到位的服务，你出家门就可以坐到车它能够把你直接送到公司门口或者胡同里聚会的小酒吧门口。所以三点掉头是无人车必须要掌握的技能。</p>
 <p>三点掉头指的是从马路的最右侧做回转，当接触到最左侧的路沿时做后退动作，同时在后退时继续将车头进行调整，最后换成前进档，继续完成掉头动作。人在进行三点掉头的时候会使车子向前向后多次移动来观察整个路况然后调整角度和距离来掉头，不过无人车有360度的视角，能够计算出最短最快路径，如下图的紫色和绿色的细线（途中紫色的方块是障碍物）。不过无人车并没有这么做，为了给车上的乘客感觉起来更舒适，谷歌选择教无人车模仿人掉头的方式，如下图中宽的车道。</p>
-<img src="/GoogleSDC/006.png" alt="006.png" title="">
+<img src="/GoogleSDC/006.png">
 <h3 id="4-试图理解其他移动物体的目的（Understanding-other-Vehicles’-intention）"><a href="#4-试图理解其他移动物体的目的（Understanding-other-Vehicles’-intention）" class="headerlink" title="4. 试图理解其他移动物体的目的（Understanding other Vehicles’ intention）"></a>4. 试图理解其他移动物体的目的（Understanding other Vehicles’ intention）</h3><p>谷歌的无人车会根据其他的车或行人已经作出的一些行为或指示来预测这个车将要做什么，比如下图中无人车依据右前方的这个车的一些微小的位移等预测它将要变道到自己的车道上来，于是无人车减速配合其顺利变道。</p>
-<img src="/GoogleSDC/007.png" alt="007.png" title="">
+<img src="/GoogleSDC/007.png">
 <p>又比如下面这张图片中，无人车探测到在它前方的自行车手（红色方框标出）的手势可能是要到马路对面去，于是减速留出足够的空间让自行车顺利通过。</p>
-<img src="/GoogleSDC/008.png" alt="008.png" title="">
+<img src="/GoogleSDC/008.png">
 <p>以上的内容希望能对大家理解谷歌的无人车有所帮助。无人车要应对的场景繁多且复杂，有一些可以写成固定的算法，比如三点掉头的方法，面对信号灯或交通标志的行为；还有一些从未遇到的场景可能就需要像上面那样试图预测移动物体的下一步行为，比如一只过马路的狗狗。</p>
-<p>谷歌在它的无人车月度报告中多次使用了【taught】这个词，几乎可以肯定很多重要的算法都是基于深度学习的。最后大家可以看这一段来自 Waymo 官网的<a href="http://www.bilibili.com/video/av8013176/" target="_blank" rel="external">视频</a>，感受一下这些算法在实际中的应用。</p>
+<p>谷歌在它的无人车月度报告中多次使用了【taught】这个词，几乎可以肯定很多重要的算法都是基于深度学习的。最后大家可以看这一段来自 Waymo 官网的<a href="http://www.bilibili.com/video/av8013176/" target="_blank" rel="noopener">视频</a>，感受一下这些算法在实际中的应用。</p>
 <p>参考资料及所有图片来源：</p>
 <ul>
 <li>Waymo 官网</li>
@@ -96,9 +170,9 @@
     <summary type="html">
     
       &lt;p&gt;谷歌的无人驾驶汽车项目已经从谷歌分离出来成为 Alphabet 的子公司 Waymo 了，不过成果基本上还是作为谷歌无人车的时候实现的。我们可以先看一下无人车的这两种车型。&lt;/p&gt;
-&lt;img src=&quot;/GoogleSDC/001.jpeg&quot; alt=&quot;001.jpeg&quot; title=&quot;&quot;&gt;
+&lt;img src=&quot;/GoogleSDC/001.jpeg&quot;&gt;
 &lt;p&gt;这是原型车（prototype vehicle）。&lt;/p&gt;
-&lt;img src=&quot;/GoogleSDC/002.jpeg&quot; alt=&quot;002.jpeg&quot; title=&quot;&quot;&gt;
+&lt;img src=&quot;/GoogleSDC/002.jpeg&quot;&gt;
 &lt;p&gt;这是 Chrysler Pacifica Hybrid，谷歌之前用的是 Lexus RX450h SUV。&lt;/p&gt;
     
     </summary>
@@ -117,47 +191,47 @@
     
     <content type="html"><![CDATA[<p>对于很多机器学习和深度学习的初学者来说，数字识别是一个非常棒的学习和练手项目。我将在这篇文章中介绍搭建一个识别印刷体数字的分类器的思路和方法并附上完整可运行的代码。</p>
 <p>这是一个识别印刷体数字的分类器，我们输入的是一张含有数字的图片，经过分类器的分析处理，我们能够框出图片上的数字并识别。比如这样：</p>
-<img src="/digit_recognition/test1111.png" alt="test1111.png" title="">
+<img src="/digit_recognition/test1111.png">
 <a id="more"></a>
 <p>当功能确定以后，我们就需要为分类器设计一个神经网络模型，寻找一个合适的数据集对模型进行训练，然后验证模型的准确性，最后我们还可以在各种平台应用这个模型。</p>
 <p>在这个问题中，我们使用的是简单的多层神经网络，结构如下图：</p>
-<img src="/digit_recognition/结构.png" alt="结构.png" title="">
+<img src="/digit_recognition/结构.png">
 <p>我们对其输入的是一个 28*28 的图片，经过 flatten 转换成784个数据点作为输入。这个模型含有两个隐藏层，每个隐藏层有512个神经元。784个数据点输入以后，经过两个隐藏层运算后就输出成了11个类的概率。这11个类包含0～9十个数字和一个非数字类，概率最大的那个就是我们的预测结果。</p>
-<h3 id="1-数据集的选择和预处理"><a href="#1-数据集的选择和预处理" class="headerlink" title="1.数据集的选择和预处理"></a>1.数据集的选择和预处理</h3><p>我们选择的数据集来自英国萨里大学的<a href="http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/" target="_blank" rel="external">网站</a>。这个网站提供了多种英文字母数字的数据集，有来自生活场景的，也有电脑印刷体的。我们选择的是<strong>EnglishFnt.tgz</strong>，这个数据集包含了印刷体数字和字母的60000+的样本。</p>
-<img src="/digit_recognition/数据集预览.png" alt="数据集预览.png" title="">
+<h3 id="1-数据集的选择和预处理"><a href="#1-数据集的选择和预处理" class="headerlink" title="1.数据集的选择和预处理"></a>1.数据集的选择和预处理</h3><p>我们选择的数据集来自英国萨里大学的<a href="http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/" target="_blank" rel="noopener">网站</a>。这个网站提供了多种英文字母数字的数据集，有来自生活场景的，也有电脑印刷体的。我们选择的是<strong>EnglishFnt.tgz</strong>，这个数据集包含了印刷体数字和字母的60000+的样本。</p>
+<img src="/digit_recognition/数据集预览.png">
 <center>数据集预览</center>
 
 <p>在这个项目中，我们选择了用程序自动下载和自动解压的方法，这个过程也可以手动完成。</p>
 <blockquote>
-<p>在这里强烈给大家推荐tqdm这个库，<a href="https://github.com/tqdm/tqdm" target="_blank" rel="external">tqdm</a> 是阿拉伯语，意为“进度”。使用这个库我们可以在下载，处理以及训练等需要耗费较多时间的程序中加入进度条，直观的看到需要花费的时间以及进度。</p>
+<p>在这里强烈给大家推荐tqdm这个库，<a href="https://github.com/tqdm/tqdm" target="_blank" rel="noopener">tqdm</a> 是阿拉伯语，意为“进度”。使用这个库我们可以在下载，处理以及训练等需要耗费较多时间的程序中加入进度条，直观的看到需要花费的时间以及进度。</p>
 </blockquote>
 <p>大家可以去解压后的目录 <em>/English/Fnt/</em> 下查看解压后的数据集，由于数据集中包含 <strong>0～9</strong> 10个数字 以及 <strong>A～Z</strong> 26个字母的大小写,所以会有Sample001～Sample062，共62个文件夹。</p>
-<img src="/digit_recognition/解压后.png" alt="解压后.png" title="">
+<img src="/digit_recognition/解压后.png">
 <p>数据集中包含 <strong>0～9</strong> 十个数字 以及 <strong>A～Z</strong> 26个字母的大小写，但是我们最后的分类器会分11个类，<strong>0～9</strong> 每个数字一类以及一个非数字类。非数字类就是 <strong>A～Z</strong> 26个字母的大小写，我们需要将这些文件移到同一个文件夹中。在这里，我们将 A~Z, a~z 的图片移到 Sample011 中，再将其他空文件夹删除。</p>
-<img src="/digit_recognition/分类后.png" alt="分类后.png" title="">
+<img src="/digit_recognition/分类后.png">
 <center>重新分类后的数据集</center>
 
 <h3 id="2-数据集中图片的预处理"><a href="#2-数据集中图片的预处理" class="headerlink" title="2.数据集中图片的预处理"></a>2.数据集中图片的预处理</h3><p>对于图片的预处理过程取决于我们采用的模型，在这个项目中，我们模型的输入是28*28的灰度图片。于是，我们把这两个步骤写成了两个函数，使用resize(rawimg)来调整图片大小，使用convert(imgpath)将图片调成灰度。</p>
-<img src="/digit_recognition/处理.png" alt="处理.png" title="">
+<img src="/digit_recognition/处理.png">
 <center>处理前 Vs. 处理后</center>
 
 <h3 id="3-分离验证集"><a href="#3-分离验证集" class="headerlink" title="3.分离验证集"></a>3.分离验证集</h3><p>分离验证集的时候，我们使用的是机器学习库sklearn的train<br>_test_split，将数据集中90%的内容作为训练集，10%的内容作为验证集。</p>
-<h3 id="4-图片生成器"><a href="#4-图片生成器" class="headerlink" title="4.图片生成器"></a>4.图片生成器</h3><p>在进行训练的时候，由于训练集往往会包含几万张图，所以我们通常不会选择将所有训练集的图片加载到内存当中而是选择使用图片生成器<a href="http://keras-cn.readthedocs.io/en/latest/preprocessing/image/" target="_blank" rel="external">ImageDataGenerator</a>。使用图片生成器生成一个batch的图像数据，支持实时数据提升。训练时该函数会无限生成数据，直到达到规定的epoch次数为止。</p>
+<h3 id="4-图片生成器"><a href="#4-图片生成器" class="headerlink" title="4.图片生成器"></a>4.图片生成器</h3><p>在进行训练的时候，由于训练集往往会包含几万张图，所以我们通常不会选择将所有训练集的图片加载到内存当中而是选择使用图片生成器<a href="http://keras-cn.readthedocs.io/en/latest/preprocessing/image/" target="_blank" rel="noopener">ImageDataGenerator</a>。使用图片生成器生成一个batch的图像数据，支持实时数据提升。训练时该函数会无限生成数据，直到达到规定的epoch次数为止。</p>
 <h3 id="5-模型搭建和训练"><a href="#5-模型搭建和训练" class="headerlink" title="5.模型搭建和训练"></a>5.模型搭建和训练</h3><p>有了图像生成器之后我们就可以搭建我们的模型了，由于我们的模型结构十分简单784-&gt;512-&gt;512-&gt;11，再加上人性化的keras， 不出20行就可以搞定。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">model = Sequential()</div><div class="line">model.add(Flatten(input_shape=(<span class="number">28</span>, <span class="number">28</span>, <span class="number">1</span>)))</div><div class="line">model.add(Dense(<span class="number">512</span>, activation=<span class="string">'relu'</span>))</div><div class="line">model.add(Dropout(<span class="number">0.2</span>))</div><div class="line">model.add(Dense(<span class="number">512</span>, activation=<span class="string">'relu'</span>))</div><div class="line">model.add(Dropout(<span class="number">0.2</span>))</div><div class="line">model.add(Dense(<span class="number">11</span>))</div><div class="line">model.add(Activation(<span class="string">'softmax'</span>))</div><div class="line"></div><div class="line">model.compile(loss=<span class="string">'categorical_crossentropy'</span>,</div><div class="line">              optimizer=<span class="string">'adadelta'</span>,</div><div class="line">              metrics=[<span class="string">'accuracy'</span>])</div><div class="line"></div><div class="line">model.summary()</div></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">model = Sequential()</span><br><span class="line">model.add(Flatten(input_shape=(<span class="number">28</span>, <span class="number">28</span>, <span class="number">1</span>)))</span><br><span class="line">model.add(Dense(<span class="number">512</span>, activation=<span class="string">'relu'</span>))</span><br><span class="line">model.add(Dropout(<span class="number">0.2</span>))</span><br><span class="line">model.add(Dense(<span class="number">512</span>, activation=<span class="string">'relu'</span>))</span><br><span class="line">model.add(Dropout(<span class="number">0.2</span>))</span><br><span class="line">model.add(Dense(<span class="number">11</span>))</span><br><span class="line">model.add(Activation(<span class="string">'softmax'</span>))</span><br><span class="line"></span><br><span class="line">model.compile(loss=<span class="string">'categorical_crossentropy'</span>,</span><br><span class="line">              optimizer=<span class="string">'adadelta'</span>,</span><br><span class="line">              metrics=[<span class="string">'accuracy'</span>])</span><br><span class="line"></span><br><span class="line">model.summary()</span><br></pre></td></tr></table></figure>
 <p>而且我们也可以通过代码清晰的看到我们的网络结构。</p>
-<img src="/digit_recognition/网络结构.png" alt="网络结构.png" title="">
+<img src="/digit_recognition/网络结构.png">
 <p>只需要训练10代，valid accuracy 就可以达到95%以上。</p>
 <h3 id="6-使用模型进行预测"><a href="#6-使用模型进行预测" class="headerlink" title="6.使用模型进行预测"></a>6.使用模型进行预测</h3><p>最后，使用模型进行预测也是很重要的部分。我们输入的是一张含有数字的普通图片，我们需要将图片转灰度，自适应二值化，提取轮廓，寻找最小矩形边界，判断是否满足预设条件，如宽、高，宽高比。将满足条件的图片缩放至最大边长为28的小图，然后将其放入一个28*28的白色图像的中心位置。将处理好的图片送入模型中运算，得到识别的结果。</p>
-<img src="/digit_recognition/img1.png" alt="img1.png" title="">
+<img src="/digit_recognition/img1.png">
 <p>我们可以将我们训练好的模型应用到网页端或者某个app中。印刷数字识别的应用是非常广泛的，比如我们可以用它来识别车牌号，门牌号，快递单号（虽然通常的方法是扫描条形码😢）等。</p>
 <p>我们的应用方法是将这个模型嵌入到了微信后台中，你可以在后台中回复一张图片，由于我们的模型简单，预处理方法也较为简单，所以发送的图片像素不要过大或者过小，白底黑字效果较好。可以尝试保存下面两张图的原图进行测试，发送时记得点<strong>预览</strong>并选择<strong>原图</strong>发送。</p>
-<img src="/digit_recognition/matrix.png" alt="matrix.png" title="">
-<img src="/digit_recognition/test.png" alt="test.png" title="">
-<p>🔗完整的代码戳<a href="https://github.com/ypwhs/wechat_digit_recognition" target="_blank" rel="external">GitHub</a>即可下载。<br>🔗主要包含两部分：</p>
+<img src="/digit_recognition/matrix.png">
+<img src="/digit_recognition/test.png">
+<p>🔗完整的代码戳<a href="https://github.com/ypwhs/wechat_digit_recognition" target="_blank" rel="noopener">GitHub</a>即可下载。<br>🔗主要包含两部分：</p>
 <ul>
-<li><a href="https://github.com/ypwhs/wechat_digit_recognition/blob/master/Preprocessing%20dataset.ipynb" target="_blank" rel="external">Preprocessing dataset.ipynb</a></li>
-<li><a href="https://github.com/ypwhs/wechat_digit_recognition/blob/master/Training%20Model.ipynb" target="_blank" rel="external">Training Model.ipynb</a></li>
+<li><a href="https://github.com/ypwhs/wechat_digit_recognition/blob/master/Preprocessing%20dataset.ipynb" target="_blank" rel="noopener">Preprocessing dataset.ipynb</a></li>
+<li><a href="https://github.com/ypwhs/wechat_digit_recognition/blob/master/Training%20Model.ipynb" target="_blank" rel="noopener">Training Model.ipynb</a></li>
 </ul>
 ]]></content>
     
@@ -165,38 +239,12 @@
     
       &lt;p&gt;对于很多机器学习和深度学习的初学者来说，数字识别是一个非常棒的学习和练手项目。我将在这篇文章中介绍搭建一个识别印刷体数字的分类器的思路和方法并附上完整可运行的代码。&lt;/p&gt;
 &lt;p&gt;这是一个识别印刷体数字的分类器，我们输入的是一张含有数字的图片，经过分类器的分析处理，我们能够框出图片上的数字并识别。比如这样：&lt;/p&gt;
-&lt;img src=&quot;/digit_recognition/test1111.png&quot; alt=&quot;test1111.png&quot; title=&quot;&quot;&gt;
+&lt;img src=&quot;/digit_recognition/test1111.png&quot;&gt;
     
     </summary>
     
     
       <category term="Deep Learning" scheme="https://lhy.io/tags/Deep-Learning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ResNet-50 for Cats vs. Dogs</title>
-    <link href="https://lhy.io/ResNet-50-for-Cats-vs-Dogs/"/>
-    <id>https://lhy.io/ResNet-50-for-Cats-vs-Dogs/</id>
-    <published>2016-12-13T13:03:46.000Z</published>
-    <updated>2016-12-27T16:15:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Machine-Learning-Capstone-Project"><a href="#Machine-Learning-Capstone-Project" class="headerlink" title="Machine Learning Capstone Project"></a>Machine Learning Capstone Project</h1><h3 id="I-Definition"><a href="#I-Definition" class="headerlink" title="I. Definition"></a>I. Definition</h3><h3>Project Overview</h3>
-
-<p>Cats and dogs are the most favorite pets in a human’s life, therefore, we always have photos containing cats or dogs in our albums. Sometimes we try to classify these photos into categories. What if we do these things automatically rather than by our own hands or eyes? With the technology of computer vision, the knowledge of machine learning or more precisely deep learning, these problems can be solved.</p>
-<p>Many people have tried different ways to solve this problem and submitted their results on kaggle. Most of them really did very good jobs while some are not so satisfied.</p>
-<p>In this project, I built a classifier trained by the dataset downloaded from kaggle. The dataset contains a large amount of ordinary daily images including cats or dogs. The classifier runs on the Jupyter Notebook.</p>
-<p>$accuracy = \frac{n}{N}*100\%$</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Machine-Learning-Capstone-Project&quot;&gt;&lt;a href=&quot;#Machine-Learning-Capstone-Project&quot; class=&quot;headerlink&quot; title=&quot;Machine Learning Capstone 
-    
-    </summary>
-    
-    
-      <category term="Machine Learning" scheme="https://lhy.io/tags/Machine-Learning/"/>
     
   </entry>
   
@@ -211,7 +259,7 @@
 <a id="more"></a>
 <p>一只老狗，长得丑，矮胖，从前是流浪的，和学校其他的流浪狗一样。老太太从前喂了学校里好多流浪狗，但是这些流浪狗喂着喂着，换了一批又一批，有的在外面出车祸死了，有的被保安赶走或者打死了，有的狗不甘平凡，去远方流浪了。可是这只狗，一直都跟着老太太，从我来到这里开始，直到我离开的时候也是。大概是从小就流浪的原因，在外面吃了不苦头。老狗很怕人，即使是给她肉吃的人。从前，我去取快递的时候，看她一眼，她都会嘴里呜噜着，但不敢叫出来，躲得老远。</p>
 <p>半年以前，顺丰家又来了一只小小狗，不知是哪家生了抱来的。特别小，小得好像一个手掌就能包起来，简直就是一个毛茸茸的肉球球。它看起来像是泰迪和一只黑土狗的串串，事实也是这样的。但是它也丑，因为它全身乌黑乌黑的，它不只是一个毛茸茸的肉球球，更是一个黑煤球！不过这一点关系也没有，因为它小，长得丑也是惹人爱的的，况且学校里没有更小的狗或者说没有别的狗了，所以更没有能和他争宠的了。自打它来到这里开始，就集万千宠爱于一身，它见到任何人都会屁颠屁颠的跑过去，拼尽全力摇尾巴。大家来取快递的时候都会被它逗笑，然后给它买肉肠吃，大家都知道它最喜欢的是王中王。</p>
-<p><img src="/images/xiaohei.jpg" width="360px"></p>
+<p>&lt;img src=/images/xiaohei.jpg width=360px&gt;</p>
 <p style="text-align: center">(诺～就是这只小黑～)</p>
 
 <p>后来小小狗长大了，长成了一只健壮的狗，已经开始满校园撒欢，走在路上能赚到好多王中王。它还是最受欢迎的，在路上看到人就会开心的奔过去，闻一闻，站起来或者坐下，亲热一番，再换一个路人，看看有没有给它肉肠的，它有时吃到撑吐，真的是毫不夸张。而老狗还是在顺丰家的屋子里，或者门口，从不走远。还是不敢接近任何人，除了老太太。但是它常常能沾小小狗的光，吃到肉肠。</p>
@@ -270,7 +318,7 @@
     <updated>2017-08-13T15:21:37.000Z</updated>
     
     <content type="html"><![CDATA[<p>instaBTBU Promotional cards<br><a id="more"></a></p>
-<img src="/instaBTBU/instabtbu.png" alt="instabtbu.png" title="">
+<img src="/instaBTBU/instabtbu.png">
 ]]></content>
     
     <summary type="html">
@@ -291,21 +339,21 @@
     <published>2015-06-01T07:37:28.000Z</published>
     <updated>2016-12-27T16:16:01.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><a id="more"></a>
-<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;
     
     </summary>
