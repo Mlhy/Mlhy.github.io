@@ -54,7 +54,7 @@
     <link href="https://lhy.io/shell/"/>
     <id>https://lhy.io/shell/</id>
     <published>2018-12-25T11:49:00.000Z</published>
-    <updated>2018-12-25T14:08:13.267Z</updated>
+    <updated>2018-12-25T14:08:13.000Z</updated>
     
     <content type="html"><![CDATA[<p><code>zsh</code>、<code>bash</code> 都是 shell，zsh 比 bash 更加强大。</p>
 <p><code>ssh</code> 连接远程服务器。例如： <code>ssh xxx@192.168.*.*</code>。</p>
@@ -89,7 +89,7 @@
     <link href="https://lhy.io/learn_to_drive_a_car/"/>
     <id>https://lhy.io/learn_to_drive_a_car/</id>
     <published>2018-09-10T12:06:59.000Z</published>
-    <updated>2018-09-10T11:56:13.196Z</updated>
+    <updated>2018-09-10T11:56:13.000Z</updated>
     
     <content type="html"><![CDATA[<p>在我的学车过程中遇到了很多问题都很困惑，也没有找到很好的答案，所以我准备总结一下我的学习过程供大家参考。我学习的是C2-小型自动挡汽车，地点是上海，这篇博客完成于2018年9月，随着时间、地点改变可参考的价值也会改变。</p>
 <a id="more"></a>
@@ -163,7 +163,7 @@
     <link href="https://lhy.io/ImageNet_Models/"/>
     <id>https://lhy.io/ImageNet_Models/</id>
     <published>2018-08-10T14:43:34.000Z</published>
-    <updated>2018-09-11T17:40:38.464Z</updated>
+    <updated>2018-09-11T17:40:38.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="VGG"><a href="#VGG" class="headerlink" title="VGG"></a>VGG</h2><p><strong>Very Deep Convolutional Networks for Large-Scale Image Recognition</strong><br><a href="https://arxiv.org/abs/1409.1556" target="_blank" rel="noopener">https://arxiv.org/abs/1409.1556</a><br>Submitted on 4 Sep 2014 </p>
 <a id="more"></a>
@@ -191,7 +191,7 @@
     <link href="https://lhy.io/TensorFlow/"/>
     <id>https://lhy.io/TensorFlow/</id>
     <published>2018-02-17T14:14:49.000Z</published>
-    <updated>2018-09-13T04:52:18.436Z</updated>
+    <updated>2018-09-13T04:52:18.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="提纲"><a href="#提纲" class="headerlink" title="提纲"></a>提纲</h2><ul>
 <li>在 <code>tf.Session</code> 里面进行运算。</li>
@@ -242,7 +242,7 @@
     <link href="https://lhy.io/Simple_concept/"/>
     <id>https://lhy.io/Simple_concept/</id>
     <published>2017-09-10T13:48:21.000Z</published>
-    <updated>2018-09-13T05:12:21.968Z</updated>
+    <updated>2018-09-13T05:12:21.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li>随机梯度下降（SGD）</li>
