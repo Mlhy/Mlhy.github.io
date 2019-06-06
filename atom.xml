@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lhy.io/"/>
-  <updated>2018-09-10T11:56:13.196Z</updated>
+  <updated>2019-01-28T08:11:14.876Z</updated>
   <id>https://lhy.io/</id>
   
   <author>
@@ -14,6 +14,75 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的 Mac 必备软件</title>
+    <link href="https://lhy.io/mac_software/"/>
+    <id>https://lhy.io/mac_software/</id>
+    <published>2019-01-28T15:07:05.000Z</published>
+    <updated>2019-01-28T08:11:14.876Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Bear</strong> ：主力笔记软件，支持 Markdown，界面清晰，分类方便。</p>
+<p><strong>MacDown</strong>：Markdown 编辑器</p>
+<p><strong>iTerm+oh my zsh</strong></p>
+<a id="more"></a>
+<p><strong>SublimeText</strong>：文本编辑器</p>
+<p><strong>1Password</strong>：密码和账户管理</p>
+<p><strong>Google Chrome</strong>：浏览器</p>
+<p><strong>The unarchiver</strong>：解压软件</p>
+<p><strong>Parallels Desktop</strong>：虚拟机</p>
+<p><strong>Caffeine</strong> </p>
+<p><strong>IINA</strong> ：视频播放器</p>
+<p><strong>Karabiner</strong>：机械键盘改键</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;Bear&lt;/strong&gt; ：主力笔记软件，支持 Markdown，界面清晰，分类方便。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MacDown&lt;/strong&gt;：Markdown 编辑器&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;iTerm+oh my zsh&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://lhy.io/tags/Tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用 Shell 命令</title>
+    <link href="https://lhy.io/shell/"/>
+    <id>https://lhy.io/shell/</id>
+    <published>2018-12-25T11:49:00.000Z</published>
+    <updated>2018-12-25T14:08:13.267Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>zsh</code>、<code>bash</code> 都是 shell，zsh 比 bash 更加强大。</p>
+<p><code>ssh</code> 连接远程服务器。例如： <code>ssh xxx@192.168.*.*</code>。</p>
+<p><code>ssh</code> Secure Shell（安全外壳协议，简称SSH）是一种加密的网络传输协议，可在不安全的网络中为网络服务提供安全的传输环境。 SSH通过在网络中建立安全隧道来实现SSH客户端与服务器之间的连接。</p>
+<a id="more"></a>
+<p><code>ls</code> 是list的缩写，用来显示目标列表。<br><code>ll</code> 是ls -lh的别名，列出的信息更加详细。</p>
+<p><code>screen</code> 使得可以同时连接多个本地或远程的命令行会话，并在其间自由切换。</p>
+<p><code>cd ..</code> 返回上一层目录。</p>
+<p><code>pwd</code> 命令以绝对路径的方式显示用户当前工作目录。命令将当前目录的全路径名称（从根目录）写入标准输出。</p>
+<p><code>mv</code> 移动命令。<code>mv</code> {文件/文件夹} {目标地址}。</p>
+<p><code>rm</code> 移除文件。移除文件夹时需要 <code>rm -rf</code>。</p>
+<p><code>unzip</code> 解压缩。</p>
+<p><code>mkdir</code> 创建文件夹。</p>
+<p><code>--help</code> 显示帮助信息；<br><code>--version</code> 显示版本信息。</p>
+<center><strong>🎄圣诞快乐🎄</strong></center>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;code&gt;zsh&lt;/code&gt;、&lt;code&gt;bash&lt;/code&gt; 都是 shell，zsh 比 bash 更加强大。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ssh&lt;/code&gt; 连接远程服务器。例如： &lt;code&gt;ssh xxx@192.168.*.*&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ssh&lt;/code&gt; Secure Shell（安全外壳协议，简称SSH）是一种加密的网络传输协议，可在不安全的网络中为网络服务提供安全的传输环境。 SSH通过在网络中建立安全隧道来实现SSH客户端与服务器之间的连接。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Deep Learning" scheme="https://lhy.io/tags/Deep-Learning/"/>
+    
+  </entry>
   
   <entry>
     <title>我的学车经历（上海）</title>
@@ -86,6 +155,160 @@
     
     
       <category term="Life" scheme="https://lhy.io/tags/Life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在 ImageNet 上表现出色的经典模型</title>
+    <link href="https://lhy.io/ImageNet_Models/"/>
+    <id>https://lhy.io/ImageNet_Models/</id>
+    <published>2018-08-10T14:43:34.000Z</published>
+    <updated>2018-09-11T17:40:38.464Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="VGG"><a href="#VGG" class="headerlink" title="VGG"></a>VGG</h2><p><strong>Very Deep Convolutional Networks for Large-Scale Image Recognition</strong><br><a href="https://arxiv.org/abs/1409.1556" target="_blank" rel="noopener">https://arxiv.org/abs/1409.1556</a><br>Submitted on 4 Sep 2014 </p>
+<a id="more"></a>
+<h2 id="ResNet"><a href="#ResNet" class="headerlink" title="ResNet"></a>ResNet</h2><p><strong>Deep Residual Learning for Image Recognition</strong><br><a href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener">https://arxiv.org/abs/1512.03385</a><br>Submitted on 10 Dec 2015</p>
+<h2 id="InceptionV3"><a href="#InceptionV3" class="headerlink" title="InceptionV3"></a>InceptionV3</h2><p><strong>Rethinking the Inception Architecture for Computer Vision</strong><br><a href="https://arxiv.org/abs/1512.00567" target="_blank" rel="noopener">https://arxiv.org/abs/1512.00567</a><br>Submitted on 2 Dec 2015 </p>
+<h2 id="InceptionResNetV2"><a href="#InceptionResNetV2" class="headerlink" title="InceptionResNetV2"></a>InceptionResNetV2</h2><p><strong>Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning</strong><br><a href="https://arxiv.org/abs/1602.07261" target="_blank" rel="noopener">https://arxiv.org/abs/1602.07261</a><br>Submitted on 23 Feb 2016</p>
+<h2 id="DenseNet"><a href="#DenseNet" class="headerlink" title="DenseNet"></a>DenseNet</h2><p><strong>Densely Connected Convolutional Networks</strong><br><a href="https://arxiv.org/abs/1608.06993" target="_blank" rel="noopener">https://arxiv.org/abs/1608.06993</a><br>Submitted on 25 Aug 2016 </p>
+<h2 id="Xception"><a href="#Xception" class="headerlink" title="Xception"></a>Xception</h2><p><strong>Xception: Deep Learning with Depthwise Separable Convolutions</strong><br><a href="https://arxiv.org/abs/1610.02357" target="_blank" rel="noopener">https://arxiv.org/abs/1610.02357</a><br>Submitted on 7 Oct 2016 </p>
+<h2 id="NASNet"><a href="#NASNet" class="headerlink" title="NASNet"></a>NASNet</h2><p><strong>Neural Architecture Search with Reinforcement Learning</strong><br><a href="https://arxiv.org/abs/1611.01578" target="_blank" rel="noopener">https://arxiv.org/abs/1611.01578</a><br>Submitted on 5 Nov 2016</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;VGG&quot;&gt;&lt;a href=&quot;#VGG&quot; class=&quot;headerlink&quot; title=&quot;VGG&quot;&gt;&lt;/a&gt;VGG&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Very Deep Convolutional Networks for Large-Scale Image Recognition&lt;/strong&gt;&lt;br&gt;&lt;a href=&quot;https://arxiv.org/abs/1409.1556&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://arxiv.org/abs/1409.1556&lt;/a&gt;&lt;br&gt;Submitted on 4 Sep 2014 &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Deep Learning" scheme="https://lhy.io/tags/Deep-Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TensorFlow入门</title>
+    <link href="https://lhy.io/TensorFlow/"/>
+    <id>https://lhy.io/TensorFlow/</id>
+    <published>2018-02-17T14:14:49.000Z</published>
+    <updated>2018-09-13T04:52:18.436Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="提纲"><a href="#提纲" class="headerlink" title="提纲"></a>提纲</h2><ul>
+<li>在 <code>tf.Session</code> 里面进行运算。</li>
+<li>通过 <code>tf.constant()</code> 创建常量 tensor。</li>
+<li>用 <code>tf.placeholder()</code> 和 <code>feed_dict</code>得到输入。</li>
+<li>应用 <code>tf.add()</code>、<code>tf.subtract()</code>、 <code>tf.multiply()</code>和 <code>tf.divide()</code>函数进行数学运算。</li>
+<li>学习如何用 <code>tf.cast()</code>进行类型转换。</li>
+</ul>
+<a id="more"></a>
+<h2 id="Session"><a href="#Session" class="headerlink" title="Session"></a>Session</h2><p>TensorFlow 的 api 构建在 computational graph 的概念上，它是一种对数学运算过程进行可视化的方法。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># Hello World</span><br><span class="line">import tensorflow as tf</span><br><span class="line"></span><br><span class="line"># Create TensorFlow object called hello_constant</span><br><span class="line">hello_constant = tf.constant(&apos;Hello World!&apos;)</span><br><span class="line"></span><br><span class="line">with tf.Session() as sess:</span><br><span class="line">    # Run the tf.constant operation in the session</span><br><span class="line">    output = sess.run(hello_constant)</span><br><span class="line">    print(output)</span><br></pre></td></tr></table></figure>
+<p>这段代码用 <code>tf.Session</code> 创建了一个 sess 的 session 实例。然后 <code>sess.run()</code>函数对 tensor 求值，并返回结果。</p>
+<p><code>tf.constant()</code> 返回的 tensor 是一个常量 tensor，因为这个 tensor 的值不会变。</p>
+<h2 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h2><p><code>tf.placeholder()</code>、<code>feed_dict</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">x = tf.placeholder(tf.string)</span><br><span class="line">y = tf.placeholder(tf.int32)</span><br><span class="line">z = tf.placeholder(tf.float32)</span><br><span class="line"></span><br><span class="line">with tf.Session() as sess:</span><br><span class="line">    output = sess.run(x, feed_dict=&#123;x: &apos;Test String&apos;, y: 123, z: 45.67&#125;)</span><br></pre></td></tr></table></figure>
+<h2 id="数学运算"><a href="#数学运算" class="headerlink" title="数学运算"></a>数学运算</h2><p><code>tf.add()</code><br><code>tf.substract()</code><br><code>tf.multiply</code></p>
+<h2 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h2><p><code>tf.cast(tf.constant(2.0), tf.int32)</code></p>
+<h2 id="TensorFlow-里的权重和偏差"><a href="#TensorFlow-里的权重和偏差" class="headerlink" title="TensorFlow 里的权重和偏差"></a>TensorFlow 里的权重和偏差</h2><ul>
+<li><code>tf.Variable</code> 类创建一个 tensor，其初始值可以被改变<br>使用 <code>tf.global_variables_initializer()</code> 函数来初始化所有可变 tensor。它会从 graph 中初始化所有的 TensorFlow 变量。你可以通过 session 来调用这个操作来初始化所有上面的变量。用 <code>tf.Variable</code> 类可以让我们改变权重和偏差，但还是要选择一个初始值。</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">init = tf.global_variables_initializer()</span><br><span class="line">with tf.Session() as sess:</span><br><span class="line">    sess.run(init)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>使用 <code>tf.truncated_normal()</code>函数从一个正态分布中生成随机数。</li>
+<li><code>tf.truncated_normal()</code> 返回一个 tensor，它的随机值取自一个正态分布，并且它们的取值会在这个正态分布平均值的两个标准差之内。</li>
+<li><code>tf.zeros()</code> 函数返回一个都是 0 的 tensor。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;提纲&quot;&gt;&lt;a href=&quot;#提纲&quot; class=&quot;headerlink&quot; title=&quot;提纲&quot;&gt;&lt;/a&gt;提纲&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;在 &lt;code&gt;tf.Session&lt;/code&gt; 里面进行运算。&lt;/li&gt;
+&lt;li&gt;通过 &lt;code&gt;tf.constant()&lt;/code&gt; 创建常量 tensor。&lt;/li&gt;
+&lt;li&gt;用 &lt;code&gt;tf.placeholder()&lt;/code&gt; 和 &lt;code&gt;feed_dict&lt;/code&gt;得到输入。&lt;/li&gt;
+&lt;li&gt;应用 &lt;code&gt;tf.add()&lt;/code&gt;、&lt;code&gt;tf.subtract()&lt;/code&gt;、 &lt;code&gt;tf.multiply()&lt;/code&gt;和 &lt;code&gt;tf.divide()&lt;/code&gt;函数进行数学运算。&lt;/li&gt;
+&lt;li&gt;学习如何用 &lt;code&gt;tf.cast()&lt;/code&gt;进行类型转换。&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="Deep Learning" scheme="https://lhy.io/tags/Deep-Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简单概念</title>
+    <link href="https://lhy.io/Simple_concept/"/>
+    <id>https://lhy.io/Simple_concept/</id>
+    <published>2017-09-10T13:48:21.000Z</published>
+    <updated>2018-09-13T05:12:21.968Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li>随机梯度下降（SGD）</li>
+<li>ADAGRAD 是 SGD 的改版，能够自动选择 Momentum 和学习率衰减。</li>
+<li>Momentum </li>
+<li>学习率衰减</li>
+<li>mini-batch</li>
+<li>Epochs</li>
+<li>Cross entropy loss function 交叉熵损失函数</li>
+</ul>
+<a id="more"></a>
+<h2 id="激活函数"><a href="#激活函数" class="headerlink" title="激活函数"></a>激活函数</h2><ul>
+<li>Sigmoid</li>
+<li>Softmax</li>
+<li>ReLU（修正线性单元）</li>
+</ul>
+<p><strong>初始化权重</strong>：从正态分布中取随机数来初始化权重是个好习惯。随机化权重可以避免模型每次训练时候卡在同一个地方。类似地，从正态分布中选择权重可以避免任意一个权重与其他权重相比有压倒性的特性。可以用 <code>tf.truncated_normal()</code>函数从一个正态分布中生成随机数。</p>
+<h2 id="超参数（HYPER-PARAMETERS）"><a href="#超参数（HYPER-PARAMETERS）" class="headerlink" title="超参数（HYPER-PARAMETERS）"></a>超参数（HYPER-PARAMETERS）</h2><ul>
+<li>initial learning rate</li>
+<li>learning rate decay (<strong>首先尝试降低学习率</strong>)</li>
+<li>momentum</li>
+<li>batch size</li>
+<li>weight initialization </li>
+</ul>
+<h2 id="防止过拟合"><a href="#防止过拟合" class="headerlink" title="防止过拟合"></a>防止过拟合</h2><ul>
+<li>Early Termination</li>
+<li>正则化（Regularization）：对神经网络应用人为约束，减少自由参数的数量。</li>
+<li>L2 Regularization ：向损失函数添加另一个项用于惩罚大的权重。通常的方法是将权重的 L2 范数添加到损失函数乘以一个小的常数。L2 范数代表向量中各个元素的平方和。</li>
+<li>DROPOUT</li>
+<li>学习率衰减</li>
+</ul>
+<h2 id="归一化输入和初始权重"><a href="#归一化输入和初始权重" class="headerlink" title="归一化输入和初始权重"></a>归一化输入和初始权重</h2><p>从高斯分布上随机获取初始权重，使这些权重的均值为0，标准差为∂，∂决定了初始化时的输出的数量级以及初始化概率分布的陡峭程度。∂较大说明分布会集中在峰值处，确定性很强；∂较小，确定性比较弱，从确定性弱的分布开始比较好。</p>
+<p><strong>输入</strong></p>
+<ul>
+<li>MEAN = 0</li>
+<li>EQUAL VARIANCE (SMALL)</li>
+</ul>
+<p><strong>初始化权重</strong></p>
+<ul>
+<li>RANDOM！</li>
+<li>MEAN = 0</li>
+<li>EQUAL VARIANCE (SMALL)</li>
+</ul>
+<h2 id="随机梯度下降-SGD-Stochastic-Gradient-Decent"><a href="#随机梯度下降-SGD-Stochastic-Gradient-Decent" class="headerlink" title="随机梯度下降 SGD Stochastic Gradient Decent"></a>随机梯度下降 SGD Stochastic Gradient Decent</h2><p>使用随机梯度下降来训练 Logistic Regression，在 SGD 中，每次只往随机方向走一小步。</p>
+<ul>
+<li>Momentum：追踪梯度的实时平均值，用平均值代替当前一批数据计算得出的方向。</li>
+<li>学习率衰减</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;随机梯度下降（SGD）&lt;/li&gt;
+&lt;li&gt;ADAGRAD 是 SGD 的改版，能够自动选择 Momentum 和学习率衰减。&lt;/li&gt;
+&lt;li&gt;Momentum &lt;/li&gt;
+&lt;li&gt;学习率衰减&lt;/li&gt;
+&lt;li&gt;mini-batch&lt;/li&gt;
+&lt;li&gt;Epochs&lt;/li&gt;
+&lt;li&gt;Cross entropy loss function 交叉熵损失函数&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="Deep Learning" scheme="https://lhy.io/tags/Deep-Learning/"/>
     
   </entry>
   
