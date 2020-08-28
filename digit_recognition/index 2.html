@@ -1,0 +1,754 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next pisces" lang="zh-Hans">
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Deep Learning," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.png?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="对于很多机器学习和深度学习的初学者来说，数字识别是一个非常棒的学习和练手项目。我将在这篇文章中介绍搭建一个识别印刷体数字的分类器的思路和方法并附上完整可运行的代码。 这是一个识别印刷体数字的分类器，我们输入的是一张含有数字的图片，经过分类器的分析处理，我们能够框出图片上的数字并识别。比如这样：">
+<meta name="keywords" content="Deep Learning">
+<meta property="og:type" content="article">
+<meta property="og:title" content="搭建一个简单的识别印刷体数字的分类器">
+<meta property="og:url" content="https://lhy.io/digit_recognition/index.html">
+<meta property="og:site_name" content="小花猫">
+<meta property="og:description" content="对于很多机器学习和深度学习的初学者来说，数字识别是一个非常棒的学习和练手项目。我将在这篇文章中介绍搭建一个识别印刷体数字的分类器的思路和方法并附上完整可运行的代码。 这是一个识别印刷体数字的分类器，我们输入的是一张含有数字的图片，经过分类器的分析处理，我们能够框出图片上的数字并识别。比如这样：">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://lhy.io/digit_recognition/test1111.png">
+<meta property="og:image" content="https://lhy.io/digit_recognition/结构.png">
+<meta property="og:image" content="https://lhy.io/digit_recognition/数据集预览.png">
+<meta property="og:image" content="https://lhy.io/digit_recognition/解压后.png">
+<meta property="og:image" content="https://lhy.io/digit_recognition/分类后.png">
+<meta property="og:image" content="https://lhy.io/digit_recognition/处理.png">
+<meta property="og:image" content="https://lhy.io/digit_recognition/网络结构.png">
+<meta property="og:image" content="https://lhy.io/digit_recognition/img1.png">
+<meta property="og:image" content="https://lhy.io/digit_recognition/matrix.png">
+<meta property="og:image" content="https://lhy.io/digit_recognition/test.png">
+<meta property="og:updated_time" content="2017-01-03T16:26:45.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="搭建一个简单的识别印刷体数字的分类器">
+<meta name="twitter:description" content="对于很多机器学习和深度学习的初学者来说，数字识别是一个非常棒的学习和练手项目。我将在这篇文章中介绍搭建一个识别印刷体数字的分类器的思路和方法并附上完整可运行的代码。 这是一个识别印刷体数字的分类器，我们输入的是一张含有数字的图片，经过分类器的分析处理，我们能够框出图片上的数字并识别。比如这样：">
+<meta name="twitter:image" content="https://lhy.io/digit_recognition/test1111.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://lhy.io/digit_recognition/"/>
+
+
+
+
+
+  <title> 搭建一个简单的识别印刷体数字的分类器 | 小花猫 </title><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">小花猫</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle"></p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://lhy.io/digit_recognition/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="meow">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/favicon.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="小花猫">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="小花猫" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                搭建一个简单的识别印刷体数字的分类器
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-01T22:44:34+08:00">
+                2017-01-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>对于很多机器学习和深度学习的初学者来说，数字识别是一个非常棒的学习和练手项目。我将在这篇文章中介绍搭建一个识别印刷体数字的分类器的思路和方法并附上完整可运行的代码。</p>
+<p>这是一个识别印刷体数字的分类器，我们输入的是一张含有数字的图片，经过分类器的分析处理，我们能够框出图片上的数字并识别。比如这样：</p>
+<img src="/digit_recognition/test1111.png">
+<a id="more"></a>
+<p>当功能确定以后，我们就需要为分类器设计一个神经网络模型，寻找一个合适的数据集对模型进行训练，然后验证模型的准确性，最后我们还可以在各种平台应用这个模型。</p>
+<p>在这个问题中，我们使用的是简单的多层神经网络，结构如下图：</p>
+<img src="/digit_recognition/结构.png">
+<p>我们对其输入的是一个 28*28 的图片，经过 flatten 转换成784个数据点作为输入。这个模型含有两个隐藏层，每个隐藏层有512个神经元。784个数据点输入以后，经过两个隐藏层运算后就输出成了11个类的概率。这11个类包含0～9十个数字和一个非数字类，概率最大的那个就是我们的预测结果。</p>
+<h3 id="1-数据集的选择和预处理"><a href="#1-数据集的选择和预处理" class="headerlink" title="1.数据集的选择和预处理"></a>1.数据集的选择和预处理</h3><p>我们选择的数据集来自英国萨里大学的<a href="http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/" target="_blank" rel="noopener">网站</a>。这个网站提供了多种英文字母数字的数据集，有来自生活场景的，也有电脑印刷体的。我们选择的是<strong>EnglishFnt.tgz</strong>，这个数据集包含了印刷体数字和字母的60000+的样本。</p>
+<img src="/digit_recognition/数据集预览.png">
+<center>数据集预览</center>
+
+<p>在这个项目中，我们选择了用程序自动下载和自动解压的方法，这个过程也可以手动完成。</p>
+<blockquote>
+<p>在这里强烈给大家推荐tqdm这个库，<a href="https://github.com/tqdm/tqdm" target="_blank" rel="noopener">tqdm</a> 是阿拉伯语，意为“进度”。使用这个库我们可以在下载，处理以及训练等需要耗费较多时间的程序中加入进度条，直观的看到需要花费的时间以及进度。</p>
+</blockquote>
+<p>大家可以去解压后的目录 <em>/English/Fnt/</em> 下查看解压后的数据集，由于数据集中包含 <strong>0～9</strong> 10个数字 以及 <strong>A～Z</strong> 26个字母的大小写,所以会有Sample001～Sample062，共62个文件夹。</p>
+<img src="/digit_recognition/解压后.png">
+<p>数据集中包含 <strong>0～9</strong> 十个数字 以及 <strong>A～Z</strong> 26个字母的大小写，但是我们最后的分类器会分11个类，<strong>0～9</strong> 每个数字一类以及一个非数字类。非数字类就是 <strong>A～Z</strong> 26个字母的大小写，我们需要将这些文件移到同一个文件夹中。在这里，我们将 A~Z, a~z 的图片移到 Sample011 中，再将其他空文件夹删除。</p>
+<img src="/digit_recognition/分类后.png">
+<center>重新分类后的数据集</center>
+
+<h3 id="2-数据集中图片的预处理"><a href="#2-数据集中图片的预处理" class="headerlink" title="2.数据集中图片的预处理"></a>2.数据集中图片的预处理</h3><p>对于图片的预处理过程取决于我们采用的模型，在这个项目中，我们模型的输入是28*28的灰度图片。于是，我们把这两个步骤写成了两个函数，使用resize(rawimg)来调整图片大小，使用convert(imgpath)将图片调成灰度。</p>
+<img src="/digit_recognition/处理.png">
+<center>处理前 Vs. 处理后</center>
+
+<h3 id="3-分离验证集"><a href="#3-分离验证集" class="headerlink" title="3.分离验证集"></a>3.分离验证集</h3><p>分离验证集的时候，我们使用的是机器学习库sklearn的train<br>_test_split，将数据集中90%的内容作为训练集，10%的内容作为验证集。</p>
+<h3 id="4-图片生成器"><a href="#4-图片生成器" class="headerlink" title="4.图片生成器"></a>4.图片生成器</h3><p>在进行训练的时候，由于训练集往往会包含几万张图，所以我们通常不会选择将所有训练集的图片加载到内存当中而是选择使用图片生成器<a href="http://keras-cn.readthedocs.io/en/latest/preprocessing/image/" target="_blank" rel="noopener">ImageDataGenerator</a>。使用图片生成器生成一个batch的图像数据，支持实时数据提升。训练时该函数会无限生成数据，直到达到规定的epoch次数为止。</p>
+<h3 id="5-模型搭建和训练"><a href="#5-模型搭建和训练" class="headerlink" title="5.模型搭建和训练"></a>5.模型搭建和训练</h3><p>有了图像生成器之后我们就可以搭建我们的模型了，由于我们的模型结构十分简单784-&gt;512-&gt;512-&gt;11，再加上人性化的keras， 不出20行就可以搞定。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">model = Sequential()</span><br><span class="line">model.add(Flatten(input_shape=(<span class="number">28</span>, <span class="number">28</span>, <span class="number">1</span>)))</span><br><span class="line">model.add(Dense(<span class="number">512</span>, activation=<span class="string">'relu'</span>))</span><br><span class="line">model.add(Dropout(<span class="number">0.2</span>))</span><br><span class="line">model.add(Dense(<span class="number">512</span>, activation=<span class="string">'relu'</span>))</span><br><span class="line">model.add(Dropout(<span class="number">0.2</span>))</span><br><span class="line">model.add(Dense(<span class="number">11</span>))</span><br><span class="line">model.add(Activation(<span class="string">'softmax'</span>))</span><br><span class="line"></span><br><span class="line">model.compile(loss=<span class="string">'categorical_crossentropy'</span>,</span><br><span class="line">              optimizer=<span class="string">'adadelta'</span>,</span><br><span class="line">              metrics=[<span class="string">'accuracy'</span>])</span><br><span class="line"></span><br><span class="line">model.summary()</span><br></pre></td></tr></table></figure>
+<p>而且我们也可以通过代码清晰的看到我们的网络结构。</p>
+<img src="/digit_recognition/网络结构.png">
+<p>只需要训练10代，valid accuracy 就可以达到95%以上。</p>
+<h3 id="6-使用模型进行预测"><a href="#6-使用模型进行预测" class="headerlink" title="6.使用模型进行预测"></a>6.使用模型进行预测</h3><p>最后，使用模型进行预测也是很重要的部分。我们输入的是一张含有数字的普通图片，我们需要将图片转灰度，自适应二值化，提取轮廓，寻找最小矩形边界，判断是否满足预设条件，如宽、高，宽高比。将满足条件的图片缩放至最大边长为28的小图，然后将其放入一个28*28的白色图像的中心位置。将处理好的图片送入模型中运算，得到识别的结果。</p>
+<img src="/digit_recognition/img1.png">
+<p>我们可以将我们训练好的模型应用到网页端或者某个app中。印刷数字识别的应用是非常广泛的，比如我们可以用它来识别车牌号，门牌号，快递单号（虽然通常的方法是扫描条形码😢）等。</p>
+<p>我们的应用方法是将这个模型嵌入到了微信后台中，你可以在后台中回复一张图片，由于我们的模型简单，预处理方法也较为简单，所以发送的图片像素不要过大或者过小，白底黑字效果较好。可以尝试保存下面两张图的原图进行测试，发送时记得点<strong>预览</strong>并选择<strong>原图</strong>发送。</p>
+<img src="/digit_recognition/matrix.png">
+<img src="/digit_recognition/test.png">
+<p>🔗完整的代码戳<a href="https://github.com/ypwhs/wechat_digit_recognition" target="_blank" rel="noopener">GitHub</a>即可下载。<br>🔗主要包含两部分：</p>
+<ul>
+<li><a href="https://github.com/ypwhs/wechat_digit_recognition/blob/master/Preprocessing%20dataset.ipynb" target="_blank" rel="noopener">Preprocessing dataset.ipynb</a></li>
+<li><a href="https://github.com/ypwhs/wechat_digit_recognition/blob/master/Training%20Model.ipynb" target="_blank" rel="noopener">Training Model.ipynb</a></li>
+</ul>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Deep-Learning/" rel="tag"># Deep Learning</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/dogs_at_shunfeng/" rel="next" title="顺丰家的狗🐶">
+                <i class="fa fa-chevron-left"></i> 顺丰家的狗🐶
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/GoogleSDC/" rel="prev" title="谷歌／Waymo 无人车小知识">
+                谷歌／Waymo 无人车小知识 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/favicon.jpg"
+               alt="meow" />
+          <p class="site-author-name" itemprop="name">meow</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/mlhy" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/mypw" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.linkedin.com/in/lianghuiying" target="_blank" title="Linkedin">
+                  
+                    <i class="fa fa-fw fa-linkedin"></i>
+                  
+                  Linkedin
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.instagram.com/_mlhy/" target="_blank" title="Instagram">
+                  
+                    <i class="fa fa-fw fa-instagram"></i>
+                  
+                  Instagram
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-数据集的选择和预处理"><span class="nav-number">1.</span> <span class="nav-text">1.数据集的选择和预处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-数据集中图片的预处理"><span class="nav-number">2.</span> <span class="nav-text">2.数据集中图片的预处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-分离验证集"><span class="nav-number">3.</span> <span class="nav-text">3.分离验证集</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-图片生成器"><span class="nav-number">4.</span> <span class="nav-text">4.图片生成器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-模型搭建和训练"><span class="nav-number">5.</span> <span class="nav-text">5.模型搭建和训练</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-使用模型进行预测"><span class="nav-number">6.</span> <span class="nav-text">6.使用模型进行预测</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">meow</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>
